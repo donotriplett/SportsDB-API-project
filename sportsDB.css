@@ -1,0 +1,110 @@
+body {
+    background-image: url(https://images.pexels.com/photos/958168/pexels-photo-958168.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: 100%;
+}
+
+#header {
+    background-image: url(https://images.unsplash.com/photo-1506626637585-0802df0d0269?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6acd36d02c6e49901fbeb3aeb2e5a697&auto=format&fit=crop&w=2167&q=80);
+    background-size: cover;
+    background-position-y: 60%;
+    height: 15vw;
+    border-radius: 0% 0% 20% 20%;
+}
+
+#form {
+    position: relative;
+}
+
+.submit {
+    position: relative;
+    left: 1vw;
+    top: 1vw;
+    border-radius: 50% 50% 50% 50%;
+    height: 3vw;
+    width: 3vw;
+    background-image: url(https://images.pexels.com/photos/364308/pexels-photo-364308.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: 230%;
+    background-position-x: 81%;
+    background-position-y: 40%;
+}
+
+.submit:hover {
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 1000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin;
+    -moz-animation-duration: 1000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin;
+    -ms-animation-duration: 1000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+}
+
+@-webkit-keyframes spin {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+h2 {
+    color: white;
+    margin-left: 1vw;
+}
+
+#searchText {
+    margin-left: 2em;
+    color: white;
+    margin-left: 1vw;
+    margin-top: 2vw;
+    font-weight: bold;
+    font-size: 125%;
+}
+
+#search {
+    border-radius: 5%;
+    outline: none;
+    border: 1px solid rgba(243, 64, 64, 0.308);
+    position: relative;
+}
+
+.playerDiv {
+    border-radius: 3%;
+    display: inline-grid;
+    margin: 1vw;
+    background-image: url(https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+}
+
+.infoHolder {
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 2%;
+}
+
+.players {
+    color: white;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 3%;
+    margin: 1px;
+    margin-bottom: 1vw;
+    background: black;
+    text-align: left;
+}
+
+.info {
+    color: white;
+    margin: 2px;
+    margin-bottom: 12%;
+}
+
+.noResults {
+    color: white;
+    font-weight: bold;
+    margin-left: 1vw;
+}
